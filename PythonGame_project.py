@@ -2,11 +2,11 @@ import random
 import streamlit as st
 import matplotlib.pyplot as plt
 
-import pandas as pd
+# import pandas as pd
 
-import numpy as np
+# import numpy as np
 
-import plotly.graph_objects as go
+# import plotly.graph_objects as go
 
 st.set_page_config(page_title="TrestleGuessGame")
 
@@ -146,11 +146,7 @@ if secButton:
     ax.set_ylabel(' ')
     plt.xticks(rotation=45)
     st.pyplot(fig)
-thirButton = st.button("Let's celebrate")
-if thirButton:
-    # video_file = open('C:\Users\Fifonsi Donald\Downloads\Video\Cute Chibi Dragons Dance _ Miss Kobayashi\'s Dragon Maid.mkv')
-    video_path = r"C:\Users\Fifonsi Donald\Downloads\Video\Cute Chibi Dragons Dance _ Miss Kobayashi\'s Dragon Maid.mkv"
-    st.video(video_path)
+
 
     
    
